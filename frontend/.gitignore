@@ -19,3 +19,15 @@ build/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Create/replace .gitignore in the repo root
+Set-Content -Path ".gitignore" -Value @"
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+npm-debug.log*
+.DS_Store
+Thumbs.db
+"@
