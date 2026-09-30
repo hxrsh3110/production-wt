@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+.git
+.env
+training_session.log
+volume_data_source.txt
+volume_data_archive.txt
